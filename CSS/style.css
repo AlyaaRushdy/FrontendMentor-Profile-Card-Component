@@ -27,17 +27,82 @@ img {
 .nowrap {
   white-space: nowrap;
 }
+.gray-text {
+  color: var(--Dark-grayish-blue);
+}
 
 /* || GENERAL STYLING */
 body {
+  min-height: 100vh;
   font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  text-align: center;
+  color: var(--Very-dark-desaturated-blue);
+  background: var(--Dark-cyan);
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
+
+.main {
+  width: clamp(18rem, 30vw, 25rem);
+  background-color: white;
+  border-radius: 1rem;
+}
+.main__section {
+  margin-bottom: 1.25rem;
+}
+.main__banner {
+  border-radius: 1rem 1rem 0 0;
+}
+.main__profile-pic {
+  width: 33%;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin: auto;
+  transform: translateY(-3rem);
+}
+.main__profile-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  margin-top: -2rem;
+}
+.main__profile-info h1 {
+  font-size: inherit;
+}
+
+/* || Grid Styling */
+.main__section--grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 0.25px solid var(--Dark-grayish-blue);
+  row-gap: 3px;
+  padding: 1.25rem;
+}
+.stats-info {
+  color: var(--Dark-grayish-blue);
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+/* || Footer Styling */
 .footer {
   font-size: 11px;
-  text-align: center;
 }
 .footer a {
   color: hsl(228, 45%, 44%);
+}
+@media screen and (min-width: 992px) {
+  .main__profile-pic {
+    transform: translateY(-3.5rem);
+  }
+  .main__profile-info {
+    margin-top: -2.5rem;
+  }
 }
