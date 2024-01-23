@@ -27,8 +27,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mobilefirst-responsive-solution-using-css-flexbox-and-grid-hKZiTaxHEL)
+- Live Site URL: [Netlify](https://serene-cocada-d7eaa8.netlify.app/)
 
 ## My process
 
